@@ -9,7 +9,8 @@ class App extends Component {
     const beerName = e.target.elements.beerName.value;
     e.preventDefault();
     const API_CALL = await fetch(
-      `https://sandbox-api.brewerydb.com/v2/?key=${API_KEY}`
+      `https://cors-anywhere.herokuapp.com/https://api.brewerydb.com/v2/search?key=${API_KEY}&type=beer&q=` +
+        beerName
     );
     const data = await API_CALL.json();
     console.log(data);
