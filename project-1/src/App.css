@@ -31,7 +31,7 @@ button:focus {
   font-size: 1.5em;
 }
 
-.recipe_buttons {
+.beer__buttons {
   border: solid 2px #e74c3c;
   background: transparent;
   padding: 0.4rem 0.6rem;
@@ -43,7 +43,7 @@ button:focus {
   margin-left: 0.7rem;
 }
 
-.recipes__box {
+.beer__box {
   background: #fff;
   padding-bottom: 2rem;
   border-radius: 5px;
@@ -52,25 +52,25 @@ button:focus {
   overflow: hidden;
 }
 
-.recipe__text {
+.beer__text {
   margin-left: 15px;
 }
 
-.recipes__title {
+.beer__title {
   color: #e74c3c;
   text-transform: uppercase;
   font-size: 1.1rem;
   padding: 1.8rem 0 0.2rem 0;
 }
 
-.recipes__subtitle {
+.beer__subtitle {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 0.8rem;
   letter-spacing: 2px;
 }
 
-.recipes__subtitle span {
+.beer__subtitle span {
   text-transform: none;
   font-weight: 400;
   font-size: 0.8rem;
@@ -103,38 +103,38 @@ input[type="text"] {
   outline: none;
 }
 
-/******** RECIPE.js ********/
+/******** beer.js ********/
 
-.active-recipe {
+.active-beer {
   margin: 0 auto;
   width: 60%;
 }
 
-.active-recipe__img {
+.active-beer__img {
   height: 500px !important;
 }
 
-.active-recipe__title {
+.active-beer__title {
   text-transform: uppercase;
   letter-spacing: 2px;
   margin: 1rem 0;
 }
 
-.active-recipe__publisher,
-.active-recipe__website {
+.active-beer__publisher,
+.active-beer__website {
   text-transform: uppercase;
   font-size: 1.2rem;
   margin-bottom: 1rem;
 }
 
-.active-recipe__publisher span {
+.active-beer__publisher span {
   text-transform: none;
   font-weight: 300;
   letter-spacing: 2px;
   margin-left: 5px;
 }
 
-.active-recipe__website span {
+.active-beer__website span {
   text-transform: lowercase;
   font-weight: 300;
   letter-spacing: 2px;
@@ -142,7 +142,7 @@ input[type="text"] {
   margin-left: 10px;
 }
 
-.active-recipe__button {
+.active-beer__button {
   border: solid 2px #e74c3c;
   background: transparent;
   padding: 0.2rem 0.9rem;
